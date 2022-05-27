@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_espress",
+  "version": "1.0.0",
+  "description": "Aprendiendo nodejs y express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Héctor Manuel Martínez Vaquera",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "2.0.16",
+    "standard": "17.0.0"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
